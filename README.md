@@ -27,7 +27,8 @@
 ### 1. 📚 Browse Books  
 Quickly explore a wide collection of books with their titles, authors, and descriptions. It’s like window shopping, but for your brain!
 
-![Browse Books]([./screenshots/browse-books.png](https://github.com/AAROHSINHA/SUMMEREASE/blob/main/preview/browse.png)) <!-- Add your image path here -->
+![Browse Books](https://raw.githubusercontent.com/AAROHSINHA/SUMMEREASE/main/preview/browse.png)
+
 
 ---
 
