@@ -1,54 +1,32 @@
-# React + TypeScript + Vite
+# 📚 Summerease
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Summerease** is an AI-powered book adviser that helps you explore books in a smarter way. It generates concise and insightful summaries to help you grasp content quickly, offers friendly and opinionated suggestions to guide your reading choices, and recommends books tailored to your mood and personal preferences.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Features
 
-## Expanding the ESLint configuration
+1. 📖 **Browse books and view detailed information** including title, author, and description.
+2. ✨ **Generate concise, AI-powered summaries** to understand book content at a glance.
+3. 🤔 **Get friendly suggestions** on which book to pick when choosing between multiple options.
+4. 🎭 **Receive personalized recommendations** based on your selected genre and mood.
+5. 🔄 **Smooth, responsive UI** designed for a seamless experience across devices.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠 Built With
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- ⚛️ **React.js** – for a fast, component-based frontend
+- 🟦 **TypeScript** – for type safety and better developer experience
+- 🎨 **Tailwind CSS** – for a clean, responsive UI
+- 🛢 **Supabase** – for authentication and backend storage
+- 🚀 **Netlify** – for deployment and environment management
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🌐 Live Demo
+
+[🔗 Visit Summerease on Netlify]([https://your-site-name.netlify.app](https://summerease-site.netlify.app/) <!-- Replace with your actual URL -->
+
+---
+
