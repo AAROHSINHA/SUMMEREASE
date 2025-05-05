@@ -1,0 +1,72 @@
+GREATEST OF ALL TIME
+1. "To Kill a Mockingbird" by Harper Lee
+2. "1984" by George Orwell
+3. "Pride and Prejudice" by Jane Austen
+4. "The Great Gatsby" by F. Scott Fitzgerald
+5. "Moby-Dick" by Herman Melville
+6. "War and Peace" by Leo Tolstoy
+7. "One Hundred Years of Solitude" by Gabriel García Márquez
+8. "The Catcher in the Rye" by J.D. Salinger
+9. "The Brothers Karamazov" by Fyodor Dostoevsky
+10. "Don Quixote" by Miguel de Cervantes
+
+ROMANCE
+1. "Pride and Prejudice" by Jane Austen
+2. "The Notebook" by Nicholas Sparks
+3. "Outlander" by Diana Gabaldon
+4. "Jane Eyre" by Charlotte Brontë
+5. "Me Before You" by Jojo Moyes
+6. "The Fault in Our Stars" by John Green
+7. "The Time Traveler’s Wife" by Audrey Niffenegger
+8. "Twilight" by Stephenie Meyer
+9. "The Rosie Project" by Graeme Simsion
+10. "Bridget Jones’s Diary" by Helen Fielding
+
+
+FANTASY
+1. "The Lord of the Rings" by J.R.R. Tolkien
+2. "Harry Potter and the Sorcerer's Stone" by J.K. Rowling
+3. "A Game of Thrones" by George R.R. Martin
+4. "The Hobbit" by J.R.R. Tolkien
+5. "The Name of the Wind" by Patrick Rothfuss
+6. "Mistborn: The Final Empire" by Brandon Sanderson
+7. "The Lies of Locke Lamora" by Scott Lynch
+8. "The Wheel of Time" by Robert Jordan
+9. "The Priory of the Orange Tree" by Samantha Shannon
+10. "Eragon" by Christopher Paolini
+
+
+FICTION
+1. "To Kill a Mockingbird" by Harper Lee
+2. "1984" by George Orwell
+3. "Pride and Prejudice" by Jane Austen
+4. "The Great Gatsby" by F. Scott Fitzgerald
+5. "Moby-Dick" by Herman Melville
+6. "One Hundred Years of Solitude" by Gabriel García Márquez
+7. "The Catcher in the Rye" by J.D. Salinger
+8. "The Brothers Karamazov" by Fyodor Dostoevsky
+9. "War and Peace" by Leo Tolstoy
+10. "Crime and Punishment" by Fyodor Dostoevsky
+
+/*
+      <div className={`${showSummary} bg-red-100 w-[90%] p-[5em] m-[3em]`}>
+        <h1 className="text-center text-[1.5em] font-bold tracking-[8px] mb-[1em]">
+          SHORT SUMMARY
+        </h1>
+
+        {isLoading ? (
+          <p className="italic text-center font-mono text-gray-500 animate-pulse">
+            Generating summary, please wait...
+          </p>
+        ) : errorMsg ? (
+          <p className="italic text-center font-mono text-red-500">
+            {errorMsg}
+          </p>
+        ) : (
+          <p className="italic font-mono text-center">{bookSummary}</p>
+        )}
+      </div>
+    </div>
+  );
+};
+*/
