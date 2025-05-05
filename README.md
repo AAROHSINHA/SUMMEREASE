@@ -22,11 +22,41 @@
 - 🛢 **Supabase** – for authentication and backend storage
 - 🚀 **Netlify** – for deployment and environment management
 
+## ✨ Core Features Preview
+
+### 1. 📚 Browse Books  
+Quickly explore a wide collection of books with their titles, authors, and descriptions. It’s like window shopping, but for your brain!
+
+![Browse Books](./screenshots/browse-books.png) <!-- Add your image path here -->
+
+---
+
+### 2. 🧠 Generate Summary  
+One tap and boom! A concise, AI-crafted summary appears—perfect when you want the gist without flipping a single page.
+
+![Generate Summary](./screenshots/generate-summary.png) <!-- Add your image path here -->
+
+---
+
+### 3. 🔍 Compare Books  
+Can’t pick between a few? No worries! Get friendly, human-like advice on which one suits you better. Like asking a *kitabi dost* for help!
+
+![Compare Books](./screenshots/compare-books.png) <!-- Add your image path here -->
+
+---
+
+### 4. 🎭 Get Recommendations  
+Feeling moody? Let Summerease recommend books based on your vibe—romantic, thrilling, chill, or deep. As they say, *man ke mood ka ilaaj, padhai ke saath*!
+
+![Get Recommendations](./screenshots/get-recommendations.png) <!-- Add your image path here -->
+
+
+
 ---
 
 ## 🌐 Live Demo
 
-[🔗 Visit Summerease on Netlify]([https://your-site-name.netlify.app](https://summerease-site.netlify.app/) <!-- Replace with your actual URL -->
+🔗 Visit Summerease on Netlify]([https://your-site-name.netlify.app](https://summerease-site.netlify.app/) <!-- Replace with your actual URL -->
 
 ---
 
